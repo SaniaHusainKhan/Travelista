@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Travelista</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="style.css">
+        </head>
+    <body>
+
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    TRAVEL<span>ISTA</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "gallery.html" class = "nav-link">Gallery</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "blog.html" class = "nav-link">Blog</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "about.html" class = "nav-link">About</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header class = "flex">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Escape to Paradise</h1>
+                    <p>Leave the ordinary behind and step into a world of turquoise waters, overwater villas, and barefoot luxury</p>
+                </div>
+                <div class = "header-form">
+                    <h2>Choose your Travel location:</h2>
+                    <form class = "flex">
+                        <input type = "text" class = "form-control" placeholder="Destination name">
+                        <input type="date" class = "form-control" placeholder="Date">
+                        <input type="number" class = "form-control" placeholder="Price ($)">
+                        <input type="submit" class = "btn" value = "Search">
+                    </form>
+                </div>
+            </div>
+        </header>
+
+        <section id = "featured" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">know about the beaches in Maldives before you travel</span>
+                    <h2 class = "lg-title">featured beaches</h2>
+                </div>
+
+                <div class = "featured-row">
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "Stregis.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                St. Regis Maldives
+                            </span>
+                            <div>
+                                <p class = "text">Where luxury meets the ocean — escape to the iconic St. Regis Maldives. Overwater elegance, world-class service, and sunsets you’ll never forget. Indulge in barefoot luxury at the St. Regis Maldives — your island dream awaits.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "villanautica.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Villa Nautica
+                            </span>
+                            <div>
+                                <p class = "text">​Villa Nautica Maldives is a chic, nautical-inspired resort just 20 minutes by speedboat from Malé, offering overwater and beachfront villas, gourmet dining, and vibrant marine adventures. With its blend of laid-back island life and cosmopolitan flair, it's an ideal escape for both couples and families.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "Kandima.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Kandima Resort
+                            </span>
+                            <div>
+                                <p class = "text">​Kandima Maldives is a vibrant island resort in Dhaalu Atoll, offering a playful blend of luxury, style, and endless
+                                activities. It's a tropical playground for couples, families, and friends alike</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "Lagoonview.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Lagoon View
+                            </span>
+                            <div>
+                                <p class = "text">A Lagoon View typically refers to accommodations or locations with beautiful views of a tranquil lagoon, offering
+                                stunning vistas of crystal-clear waters, lush greenery, and serene surroundings. The views are often found in premium beachfront or overwater villas in resorts across the Maldives.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "furaveri.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Furaveri Resort
+                            </span>
+                            <div>
+                                <p class = "text">Furaveri Maldives is a luxurious island resort in Raa Atoll, offering a perfect blend of relaxation and adventure. With
+                                stunning overwater and beachfront villas, vibrant marine life, and world-class dining, it’s the ideal escape for those
+                                seeking both tranquility and excitement in paradise.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "featured-fuvahmulah-maldives.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                fuvahmulah, maldives
+                            </span>
+                            <div>
+                                <p class = "text">​Fuvahmulah is a unique gem in the Maldives, offering a blend of natural beauty, rich biodiversity, and authentic
+                                cultural experiences.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id = "services" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">know about services that we offer</span>
+                    <h2 class = "lg-title">Our services</h2>
+                </div>
+
+                <div class = "services-row">
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-hotel"></i>
+                        </span>
+                        <h3>Luxurious Resorts</h3>
+                        <p class = "text">Stay in style with our handpicked collection of Maldives’ most luxurious resorts — where elegance meets island paradise.</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-map-marked-alt"></i>
+                        </span>
+                        <h3>Trave Guide</h3>
+                        <p class = "text">Your trusted Maldives travel companion — personalized tours, insider tips, and seamless experiences from arrival to
+                        adventure.</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-money-bill"></i>
+                        </span>
+                        <h3>Suitable Price</h3>
+                        <p class = "text">Experience the magic of the Maldives with handpicked resorts at prices that suit your budget — luxury made accessible.</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id = "testimonials" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">More about our clients experiences</span>
+                    <h2 class = "lg-title">testimonials</h2>
+                </div>
+
+                <div class = "test-row">
+                    <div class = "test-item">
+                        <p class = "text">"Traveling solo to the Maldives was the best decision I’ve ever made. The resort was peaceful, beautifully designed, and
+                        focused on wellness — exactly what I needed. Daily yoga sessions by the ocean, nourishing meals, and spa treatments that
+                        melted all my stress away. I left feeling refreshed, recharged, and already planning my return. Travelista made the
+                        whole experience seamless!</p>
+                        <div class = "test-item-info">
+                            <img src = "2.jpg" alt = "testimonial">
+                            <div>
+                                <h3>David William</h3>
+                                <p class = "text">Trip to Lagoonview</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">Our stay in the Maldives was beyond magical! The resort exceeded all our expectations — from the stunning overwater
+                        villa with direct access to the crystal-clear lagoon to the exceptional service from the staff. Every meal was a
+                        culinary delight, and the private beach dinners made our honeymoon truly unforgettable. Highly recommend for a romantic
+                        getaway!</p>
+                        <div class = "test-item-info">
+                            <img src = "3.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Maria Decuza</h3>
+                                <p class = "text">Trip to Furaveri</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">Our stay in the Maldives was beyond magical! The resort exceeded all our expectations — from the stunning overwater
+                        villa with direct access to the crystal-clear lagoon to the exceptional service from the staff. Every meal was a
+                        culinary delight, and the private beach dinners made our honeymoon truly unforgettable. Highly recommend for a romantic
+                        getaway!</p>
+                        <div class = "test-item-info">
+                            <img src = "1.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Julia Jones</h3>
+                                <p class = "text">Trip to Kandima</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <img src="Top.jpg" alt="featured place">
+        </section>
+
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        TRAVEL<span>ISTA</span>
+                    </a>
+                    <p class = "text">Travelista takes you on an unforgettable journey through the Maldives — from luxurious resorts to hidden gems. Discover
+                    paradise, explore turquoise waters, and create memories that last a lifetime.</p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Follow us on: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Popular Places:</h2>
+                    <ul>
+                        <li><a href = "#">St. Regis</a></li>
+                        <li><a href = "#">Villa Nautica</a></li>
+                        <li><a href = "#">Kandima</a></li>
+                        <li><a href = "#">Lagoon View</a></li>
+                        <li><a href = "#">Furaveri</a></li>
+                    </ul>
+                </div>
+
+                <div class = "subscribe-form footer-item">
+                    <h2>Subscribe for Newsletter!</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="Enter Email" class = "form-control">
+                        <input type = "submit" class = "btn" value = "Subscribe">
+                    </form>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
